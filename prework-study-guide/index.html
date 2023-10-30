@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <style>
+      h1 {
+        color:blue
+      }
+    </style>
   </head>
   <body>
     <header id="head">
-      <h1>Prework Study Guide</h1>
+      <h1 style="color:red;">Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -22,14 +30,41 @@
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
+        <p>
+          <h3>Three ways to style a webpage using CSS:</h3>  
+          
+          <ol>
+            <li>
+              Inline CSS
+            </li>
+            <li>
+              Internal CSS style sheet
+            </li>
+            <li>
+              External CSS style sheet
+            </li>
+          </ol>
+        </p>
+        <p>
+         <h4>
+          Inline CSS
+         </h4>
+         <p>
+          Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.<br> 
+          They’re useful for quick and permanent changes but are less flexible than external and internal style sheets, 
+          <br>because each inline style must be edited individually whenever you make a design change.
+         </p>
+        </p>
+        
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Enter your Git notes here</li>
+          <li>git pull origin main: to sync our local branch with the remote branch in GitHub</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
         </ul>
@@ -37,7 +72,8 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
         </ul>
       </section>
     </main>
@@ -45,5 +81,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
